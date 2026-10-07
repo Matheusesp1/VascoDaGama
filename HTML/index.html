@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Vasco da Gama - Site Oficial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Public+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/cruzdemalta.png" type="image/png">
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <div class="util">
+      <div class="wrap">
+        <a href="#">Sócio Gigante</a><a href="#">Shop Vasco</a
+        ><a href="#">Ingressos</a><a href="#">Vasco TV</a
+        ><a href="#">Vasco App</a><a href="#">Canal de denúncia</a>
+      </div>
+    </div>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand disp" href="#"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect width="24" height="24" rx="5" fill="#000" />
+            <a class="brand disp" href="#"><img class="crest" src="/images/cruzdemalta.png" alt="Escudo do Vasco da Gama" width="40" height="40">Vasco da Gama</a>
+        <nav class="m" aria-label="Principal">
+          <a href="#jogos">Jogos</a><a href="#noticias">Notícias</a
+          ><a href="#trofeus">Troféus</a><a href="#app">Sócio e app</a>
+        </nav>
+        <a class="btn k" href="#">Vasco ID</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="band" id="topo">
+        <canvas id="gl" aria-hidden="true"></canvas>
+        <div class="wrap">
+          <p class="comp" id="hComp">Brasileirão Série A 2026</p>
+          <h1 class="disp" id="hTitle">Botafogo x Vasco</h1>
+          <p class="meta" id="hMeta">Hoje, 20h30, Estádio Nilton Santos</p>
+          <div class="cd" id="cd" aria-live="off">
+            <div><b id="d">00</b><span>dias</span></div>
+            <div><b id="h">00</b><span>horas</span></div>
+            <div><b id="m">00</b><span>minutos</span></div>
+            <div><b id="s">00</b><span>segundos</span></div>
+          </div>
+          <div class="cta">
+            <a class="btn r" href="#">Comprar ingressos</a
+            ><a class="btn o" href="#jogos">Ver calendário</a>
+          </div>
+        </div>
+      </div>
+      <div class="wrap last">
+        <span>Último jogo em São Januário</span
+        ><strong>Vasco 5 x 0 Coritiba</strong
+        ><a href="#noticias" style="text-decoration: underline"
+          >Ler a matéria</a
+        >
+      </div>
+
+      <section id="jogos">
+        <div class="wrap">
+          <h2 class="disp">Calendário de jogos</h2>
+          <div class="rail" id="rail"></div>
+        </div>
+      </section>
+
+      <section id="noticias" style="padding-top: 0">
+        <div class="wrap">
+          <h2 class="disp">Últimas notícias</h2>
+          <div class="news">
+            <a class="n big" href="#">
+    <div class="ph">
+        <img src="/images/VascoxCoritiba.png" alt="Torcida do Vasco">
+    </div>
+
+    <h3 class="disp">
+        Goleada no Caldeirão: com show da torcida, Vasco goleia o Coritiba em São Januário
+    </h3>
+
+    <p>Atuação dominante em casa na Série A.</p>
+</a>
+            <a class="n" href="#"
+              ><div class="ph"><span class="tag">Base</span></div>
+              <h3>
+                Vasco assina contratos profissionais com Gianluca e Oselias
+                Pessanha, do Sub-17
+              </h3>
+              <p>07/10/2026</p></a
+            >
+            <a class="n" href="#"
+              ><div class="ph"><span class="tag">Base</span></div>
+              <h3>
+                Educação nutricional ganha espaço na formação dos jovens atletas
+                do Vasco
+              </h3>
+              <p>07/10/2026</p></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="trofeus" style="padding-top: 0">
+        <div class="wrap">
+          <h2 class="disp">Troféus</h2>
+          <div class="tr">
+            <div>
+              <b class="disp">1998</b><span>Copa Libertadores da América</span>
+            </div>
+            <div><b class="disp">4x</b><span>Campeonato Brasileiro</span></div>
+            <div><b class="disp">2000</b><span>Copa Mercosul</span></div>
+            <div><b class="disp">2011</b><span>Copa do Brasil</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="base" style="padding-top: 0">
+        <div class="wrap">
+          <h2 class="disp">Novos profissionais da base</h2>
+          <div class="pg">
+            <div class="p">
+              <div class="pic"></div>
+              <span class="tag">Sub-20</span>
+              <h3 class="disp">Pedro Augusto</h3>
+              <p>Atacante. Contrato profissional renovado.</p>
+            </div>
+            <div class="p">
+              <div class="pic"></div>
+              <span class="tag">Sub-17</span>
+              <h3 class="disp">Gianluca</h3>
+              <p>Assinou contrato profissional.</p>
+            </div>
+            <div class="p">
+              <div class="pic"></div>
+              <span class="tag">Sub-17</span>
+              <h3 class="disp">Oselias Pessanha</h3>
+              <p>Assinou contrato profissional.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="app" id="app">
+        <div class="wrap">
+          <div>
+            <h2 class="disp">Baixe o Vasco App</h2>
+            <p>
+              Feito para quem vive o Vasco 24 horas por dia. Ingressos, sócio e
+              conteúdo no mesmo lugar.
+            </p>
+          </div>
+          <div class="cta">
+            <a class="btn k" href="#">Google Play</a
+            ><a class="btn k" href="#">App Store</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="why">
+        <div class="wrap">
+          <h2 class="disp">O que mudou neste conceito</h2>
+          <ul>
+            <li>
+              <b>Jogo do dia primeiro</b
+              ><span
+                >A partida mais próxima abre a página, com contagem
+                regressiva.</span
+              >
+            </li>
+            <li>
+              <b>Texto que dá para ler</b
+              ><span>Corpo em 17px e contraste alto, também no celular.</span>
+            </li>
+            <li>
+              <b>Página inteira aproveitada</b
+              ><span
+                >O conteúdo deixa de ficar espremido numa coluna estreita.</span
+              >
+            </li>
+            <li>
+              <b>Menos blocos, mais foco</b
+              ><span
+                >Notícia principal em destaque e troféus em lista simples.</span
+              >
+            </li>
+            <li>
+              <b>Profundidade com propósito</b
+              ><span>Cruz em 3D e cartões que reagem ao mouse e ao toque.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="cols">
+          <div>
+            <b>Clube</b><a href="#">História</a><a href="#">Institucional</a>
+          </div>
+          <div>
+            <b>Futebol</b><a href="#">Calendário</a
+            ><a href="#">Programação da semana</a
+            ><a href="#">Profissional masculino</a
+            ><a href="#">Profissional feminino</a><a href="#">Credenciamento</a>
+          </div>
+          <div>
+            <b>Serviços</b><a href="#">Vasco ID</a><a href="#">Sócio Gigante</a
+            ><a href="#">Sócio Estatutário</a><a href="#">Ingressos</a
+            ><a href="#">Produtos</a>
+          </div>
+          <div>
+            <b>Projetos especiais</b><a href="#">Tour da Colina</a
+            ><a href="#">Espaço Experiência</a><a href="#">Homenagem Póstuma</a
+            ><a href="#">Vasco Academy</a><a href="#">Fan Token do Vasco</a>
+          </div>
+          <div>
+            <b>Conteúdo</b><a href="#">Vasco TV</a><a href="#">Notícias</a
+            ><a href="#">Galeria de imagem</a><a href="#">Revista Vasco</a
+            ><a href="#">Imprensa</a>
+          </div>
+          <div>
+            <b>Comercial</b><a href="#">Lojas oficiais</a
+            ><a href="#">Licenciamento</a><a href="#">Patrocine o Vasco</a>
+          </div>
+        </div>
+        <div class="sp">
+          <p>
+            Termos de uso &nbsp; Declaração de acessibilidade &nbsp; Política de
+            privacidade &nbsp; LGPD
+          </p>
+          <p>
+            Conceito de redesign feito pela Espíndola Codes. Não é o site
+            oficial do clube; a marca e as fotos reais devem vir dos materiais
+            oficiais.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="/JS/script.js"></script>
+  </body>
+</html>
